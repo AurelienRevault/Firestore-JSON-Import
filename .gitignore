@@ -1,3 +1,6 @@
+serviceAccount.json
+data/data.json
+
 # Logs
 logs
 *.log
