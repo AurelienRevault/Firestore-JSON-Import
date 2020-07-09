@@ -1,0 +1,25 @@
+{
+  "name": "firestore-json-import",
+  "version": "1.0.0",
+  "description": "import JSON data ina firestore collection ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AurelienRevault/firestore-json-import.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "import",
+    "json"
+  ],
+  "author": "Aurélien Revault d'Allonnes",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AurelienRevault/firestore-json-import/issues"
+  },
+  "homepage": "https://github.com/AurelienRevault/firestore-json-import#readme"
+}
