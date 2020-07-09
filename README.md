@@ -4,7 +4,6 @@ NodeJS app to import JSON data in a firestore collection
 It is a smaller wrapper on top of official firebase-admin package.
 
 You will need a **serviceAccount.json** file generated from Firebase/Google console.
-To generate a private key file for your service account:
 
 In the Firebase console, open **Settings > Users & Permissiosn > Service Accounts**.
 
