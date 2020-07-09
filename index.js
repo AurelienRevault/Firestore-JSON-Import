@@ -1,17 +1,17 @@
 
 
 // Imports
-const firebaseConfig = require('./config.js');
 const serviceAccount = require('./serviceAccount.json');
 const firebase = require('./node_modules/firebase-admin');
 const data  = require('./data/data.json'); // put your data here
 const collectionKey = "my_collection/sub_collection/"; //name/path of the collection
+const gDatabaseUrl = "https://<my-project-id>.firebaseio.com"
 const db = firebase.firestore();
 
 
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
-  databaseURL: firebaseConfig.databaseURL,
+  databaseURL: gDatabaseURL,
 });
 
 
