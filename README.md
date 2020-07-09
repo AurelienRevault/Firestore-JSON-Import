@@ -1,12 +1,13 @@
 # firestore-fson-import
-NodeJS app to import JSON data in a firestore collection
+NodeJS app to import JSON data in a firestore collection.
+It is a smaller wrapper on top of official firebase-admin package.
+
 
 Install with :
 
 **npm install**
 
 
-It is a smaller wrapper on top of official firebase-admin package.
 
 You will need a **serviceAccount.json** file generated from Firebase/Google console.
 
